@@ -210,6 +210,29 @@ main > section{
     filter: grayscale(100%);
 }
 
+footer {
+  background-color: #FFF4E7;   /* Blue background */
+  color: #424242;                 /* White text */
+ border-radius: 8px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin-left: 240px;
+  margin-right: 240px;
+  padding: ;
+ 
+}
+
+.footer-container p {
+    margin-top:130px;
+    margin-bottom: 216px;
+    font-size: 1.25rem;
+}
+
+
+
 /* responsive media query */
 @media screen and (max-width: 576) {
     .navbar,
@@ -240,16 +263,6 @@ main > section{
     }
 
    
-}
-
-.footer{
-    background-color: #FFF4E7;
-    color: #424242;
-    text-align: center;
-    padding: 240px 216px;
-    font-size: 1.25rem;
-    border-top: 39px;
-    border-bottom: 38px;
 }
 
 /* sponsor related styles */
